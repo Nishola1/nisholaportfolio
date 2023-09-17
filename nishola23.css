@@ -1,0 +1,260 @@
+ /* the portfolio, about buttons*/
+	.btn {
+  border: 2px solid black;
+  background-color: 00ffff;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius:30px;
+}
+
+/* Green */
+.success {
+  border-color: #00e1fd;
+  color: green;
+}
+
+.success:hover {
+  background-color: #00afb9;
+  color: white;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+background-color:#0081a7;
+font-family: 'Bodoni Moda';font-size: 22px;}
+
+no1{
+  background-image:url("./nishola23/bgimage.jpg");
+  background-repeat: contain;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: 0081a7;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #00ffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	background-color: 0081a7;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 30px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=email], select, textarea {
+	background-color: 0081a7;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 30px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #0081a7;
+   width: 30%;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  border-color: #00e1fd;
+  margin-left:470px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #00afb9;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+ .container2 {
+        background-color: black;
+        width: 100%;
+        border-radius: 15px; 
+    }
+	
+	.container3 {
+        background-color: black;
+        width: 100%;
+        border-radius: 15px;
+    }
+	
+	.container4 {
+        background-color: black;
+        width: 100%;
+        border-radius: 15px;
+    }
+  
+    .skill {
+        background-color:#1eae98;
+        color: white;
+        padding: 1%;
+        text-align: right;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+  
+    .html {
+        width: 85%;
+    }
+  
+    .php {
+        width: 60%;
+    }
+	
+	.canva {
+        width: 90%;
+    }
+  
+    .graphics {
+        width: 65%;
+    }
+  
+    .html2 {
+        width: 90%;
+    }
+	.css {
+        width: 80%;
+    }
+  
+    .js {
+        width: 60%;
+    }
+	
+	.english {
+        width: 95%;
+    }
+	.yoruba {
+        width: 80%;
+    }
+  
+    .french {
+        width: 60%;
+    }
+	#info{
+		background-color: 0081a7;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 30px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+	}
+	
+	
+	/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+   bottom: 10px;
+  display: none;
+   width:70%;
+  height:300;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
